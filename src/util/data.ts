@@ -11,6 +11,16 @@ import wallet from "@/../public/wallet.svg";
 import upload from "@/../public/upload.svg";
 import bookmark from "@/../public/bookmark.svg";
 
+import Article1 from "@/../public/article1.png";
+import Article2 from "@/../public/article2.png";
+import Article3 from "@/../public/article3.png";
+
+import Rectangle1 from "@/../public/Rectangle 11.png";
+import Rectangle2 from "@/../public/Rectangle 12.png";
+import Rectangle3 from "@/../public/Rectangle 13.png";
+import Rectangle4 from "@/../public/image 27.png";
+import Rectangle5 from "@/../public/image 26.png";
+
 export const collectionData = [
   {
     img: IMAGE1,
@@ -96,5 +106,95 @@ export const createSellData = [
     title: "List them for sale",
     description:
       "Choose between auctions, fixed-price listings, and declining-price listings. You choose how you want to sell your NFTs, and we help you sell them.",
+  },
+];
+
+export const articlesData = [
+  {
+    title: "We've lowered marketplace fees on all your favorite NFTs",
+    date: "January 23, 2022",
+    image: Article1,
+    description: "Information about lowering marketplace fees for NFTs.",
+  },
+  {
+    title: "Your Ultimate Guide to Getting Started With NFTs on Rarible",
+    date: "April 03, 2022",
+    image: Article2,
+    description: "A guide to starting with NFTs on Rarible.",
+  },
+  {
+    title: "Why Community Marketplaces are the future of NFT trading",
+    date: "July 7, 2022",
+    image: Article3,
+    description:
+      "An article on the role of community marketplaces in NFT trading.",
+  },
+];
+
+export const nftListing = [
+  {
+    id: 1,
+    name: "CryptoPunk 3D #13",
+    collection: "3D cryptopunk",
+    latestBid: "9.61 ETH",
+    from: "4.12 ETH",
+    priceUSD: "$103,025",
+    change: "-2.23%",
+    image: Rectangle1,
+    order: 1,
+    previous: 5,
+    next: 2,
+  },
+  {
+    id: 2,
+    name: "HAPE #8064",
+    collection: "HAPE PRIME",
+    latestBid: "15.8 ETH",
+    from: "9.45 ETH",
+    priceUSD: "$180,345",
+    change: "+12.45%",
+    image: Rectangle2,
+    order: 2,
+    previous: 1,
+    next: 3,
+  },
+  {
+    id: 3,
+    name: "InvisibleFriend #54",
+    collection: "INVISIBLE_FRIEND.CO",
+    latestBid: "6.73 ETH",
+    from: "1.55 ETH",
+    priceUSD: "$9,945.1",
+    change: "+3.57%",
+    image: Rectangle3,
+    order: 3,
+    previous: 2,
+    next: 4,
+  },
+  {
+    id: 4,
+    name: "Meebits #21",
+    collection: "Meebits Collection",
+    latestBid: "12.3 ETH",
+    from: "6.45 ETH",
+    priceUSD: "$75,234",
+    change: "+5.15%",
+    image: Rectangle4,
+    order: 4,
+    previous: 3,
+    next: 5,
+  },
+  {
+    id: 5,
+    name: "CloneX #892",
+    collection: "CloneX Collection",
+    latestBid: "7.92 ETH",
+    from: "3.22 ETH",
+    priceUSD: "$54,123",
+    change: "+1.87%",
+    image: Rectangle5,
+    order: 5,
+    previous: 4,
+    next: 1,
   },
 ];

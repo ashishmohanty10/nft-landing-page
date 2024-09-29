@@ -1,3 +1,4 @@
+import { Articles } from "@/components/articles";
 import { Company } from "@/components/company";
 import { CreateSellArticles } from "@/components/create-sell-articles";
 import { Hero } from "@/components/hero";
@@ -12,6 +13,7 @@ export default function Home() {
       <TrendingNFT />
       <TopCollection />
       <CreateSellArticles />
+      <Articles />
     </div>
   );
 }

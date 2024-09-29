@@ -68,10 +68,14 @@ export function Hero() {
         <Image
           src={HeroImg}
           alt="Hero Image"
-          className="z-50 -skew-x-2 w-fit lg:h-[450px]"
+          className="-z-10 -skew-x-2 w-fit lg:h-[450px]"
         />
+
+        {/* large div */}
         <div className="absolute -top-1  lg:-top-2 lg:left-36 shadow-2xl shadow-violet-600 w-[320px] h-[320px] md:w-[520px] md:h-[600px] lg:w-[350px] lg:h-[300px] border border-slate-400 backdrop-blur-sm  rounded-3xl -skew-x-12 -z-40"></div>
-        <div className="absolute -top-5 left-4 md:left-10 lg:top-14 lg:left-40 shadow-2xl shadow-violet-600 -skew-x-12 -z-40 w-[300px] h-[200px] md:w-[400px] md:h-[300px]  lg:w-[400px] lg:h-[450px] border rounded-3xl border-slate-400 bg-transparent backdrop-blur-md"></div>
+
+        {/* small div */}
+        <div className="absolute -top-5 left-5 md:left-10 lg:top-14 lg:left-40 shadow-2xl shadow-violet-600 -skew-x-12 -z-40 w-[280px] h-[230px] md:w-[400px] md:h-[300px]  lg:w-[400px] lg:h-[450px] border rounded-3xl border-slate-400 bg-transparent backdrop-blur-md"></div>
       </motion.div>
     </div>
   );
