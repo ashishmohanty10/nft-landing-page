@@ -10,13 +10,13 @@ export function CreateSellArticles() {
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ ease: "easeIn", duration: 1 }}
     >
-      <h2 className="bg-gradient-to-r from-[#6be9cc] via-[#EACCF8] to-[#a38cf4] bg-clip-text  text-transparent text-5xl font-semibold text-center ">
+      <h2 className="bg-gradient-to-r from-[#6be9cc] via-[#EACCF8] to-[#a38cf4] bg-clip-text  text-transparent text-3xl font-bold md:text-5xl  text-center ">
         Create And Sell Your NFTS
       </h2>
 
-      <div className="grid grid-cols-3 justify-center items-center ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center items-center">
         {createSellData.map((item, idx) => (
-          <div key={idx} className="space-y-5">
+          <div key={idx} className="space-y-5 mb-12 lg:mb-0">
             <div className="flex justify-center">
               <Image src={item.img} alt="img" className="w-[30px] " />
             </div>

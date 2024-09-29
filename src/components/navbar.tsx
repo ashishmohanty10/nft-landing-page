@@ -54,21 +54,21 @@ export function Navbar() {
 
   return (
     <nav
-      className="mx-20 py-8 flex items-center justify-between sticky top-0"
+      className=" mx-5 md:mx-20 py-8 flex items-center justify-between sticky top-0"
       style={{ opacity }}
     >
-      <div className="flex items-center gap-x-2">
+      <div className="flex items-center gap-x-2 cursor-pointer">
         <Image
           src={Logo}
           alt="Logo"
-          width={30}
-          height={30}
+          width={50}
+          height={50}
           className="animate-spin duration-100"
         />
-        <p className="text-xl font-semibold">ENDFT</p>
+        <p className="text-3xl font-bold">ENDFT</p>
       </div>
 
-      <div className="flex items-center gap-x-5">
+      <div className=" items-center gap-x-5 hidden lg:flex">
         {navLink.map((item, idx) => (
           <Link
             key={idx}

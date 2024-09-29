@@ -12,30 +12,38 @@ export function Company() {
       initial={{ opacity: 0, scale: 0.8 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ ease: "easeIn", duration: 1 }}
-      className="grid gap-10 my-12"
+      className="grid gap-10 my-12 px-5"
     >
-      <div className="flex  items-center justify-center gap-20">
+      <div className="grid grid-cols-3  gap-5 md:gap-10">
         <div className="flex justify-center ">
-          <Image src={Metamask} alt="Metamask logo " className="w-[200px]" />
+          <Image src={Metamask} alt="Metamask logo " className="w-[250px] " />
         </div>
         <div className="flex justify-center">
-          <Image src={Trust} alt="Trust logo" className="w-[200px]" />
+          <Image src={Trust} alt="Trust logo" className="w-[250px] " />
         </div>
         <div className="flex justify-center">
           <Image
             src={WalletConnect}
             alt="WalletConnect logo"
-            className="w-[200px]"
+            className="w-[250px] "
           />
         </div>
       </div>
 
-      <div className="flex  items-center justify-center gap-20">
+      <div className="flex  items-center justify-center gap-5 md:gap-20">
         <div className="flex justify-center">
-          <Image src={Exodus} alt="Exodus logo" className="w-[200px]" />
+          <Image
+            src={Exodus}
+            alt="Exodus logo"
+            className="w-[100px] md:w-[200px]"
+          />
         </div>
         <div className="flex justify-center">
-          <Image src={SafePal} alt="SafePal logo" className="w-[200px]" />
+          <Image
+            src={SafePal}
+            alt="SafePal logo"
+            className="w-[100px] md:w-[200px]"
+          />
         </div>
       </div>
     </motion.div>
