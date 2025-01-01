@@ -6,7 +6,7 @@ export function CreateSellArticles() {
   return (
     <>
       <motion.div
-        className="my-16 mx-20 py-16 px-10 bg-white/5 backdrop-blur-lg rounded-2xl space-y-10 border-t border-slate-100/40"
+        className="my-16 mx-8 xl:mx-20 py-16 px-10 bg-white/5 backdrop-blur-lg rounded-2xl space-y-10 border-t border-slate-100/40"
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ ease: [0.25, 1, 0.5, 1], duration: 0.3 }}

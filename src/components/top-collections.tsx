@@ -5,7 +5,7 @@ import * as motion from "framer-motion/client";
 export function TopCollection() {
   return (
     <motion.div
-      className="my-16 mx-20"
+      className="my-16 mx-8 xl:mx-20"
       initial={{ opacity: 0, scale: 0.8 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ ease: "easeIn", duration: 1 }}

@@ -6,7 +6,7 @@ import { Button } from "./button";
 export function Articles() {
   return (
     <motion.div
-      className=" mx-20 py-16 space-y-10 h-screen flex items-center flex-col"
+      className=" mx-8 xl:mx-20 py-16 space-y-10 h-screen flex items-center flex-col"
       initial={{ opacity: 0, scale: 0.8 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ ease: "easeIn", duration: 1 }}

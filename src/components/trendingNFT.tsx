@@ -5,7 +5,7 @@ import { Button } from "./button";
 
 export function TrendingNFT() {
   return (
-    <div className="my-16 mx-20 space-y-10">
+    <div className="my-16 mx-8 xl:mx-20 space-y-10">
       <h2 className="bg-gradient-to-r from-[#6be9cc] via-[#EACCF8] to-[#a38cf4] bg-clip-text leading-loose  text-transparent text-3xl md:text-5xl md:leading-relaxed font-bold text-center  ">
         Trending NFTs
       </h2>
@@ -19,7 +19,7 @@ export function TrendingNFT() {
         {nftListing.map((item, idx) => (
           <div
             key={idx}
-            className="bg-white/5 p-5 border border-slate-50/30 rounded-xl space-y-4 w-full flex flex-col"
+            className="bg-white/5 p-5 border border-slate-50/30 rounded-xl space-y-4 flex flex-col w-full"
           >
             <div className="flex items-center justify-center py-3">
               <Image

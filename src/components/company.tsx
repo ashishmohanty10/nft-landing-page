@@ -12,7 +12,7 @@ export function Company() {
       initial={{ opacity: 0, scale: 0.8 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ ease: "easeIn", duration: 1 }}
-      className="grid gap-10 my-12 px-5"
+      className="grid gap-10 px-5 py-12 xl:py-0"
     >
       <div className="grid grid-cols-3  gap-5 md:gap-10">
         <div className="flex justify-center ">

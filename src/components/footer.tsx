@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
 
         <div className="lg:w-1/2">
-          <h1 className="text-5xl font-semibold uppercase leading-none -mb-4">
+          <h1 className="text-3xl md:text-5xl font-semibold uppercase leading-none -mb-4">
             Socials
           </h1>
           <motion.div className="flex flex-col mt-12 gap-5 font-medium text-2xl">

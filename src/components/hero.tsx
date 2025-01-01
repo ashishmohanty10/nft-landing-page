@@ -6,9 +6,9 @@ import HeroImg from "../../public/image 17.png";
 
 export function Hero() {
   return (
-    <div className="mx-5 md:mx-20 py-16 grid grid-cols-1 lg:grid-cols-2 ">
+    <div className="mx-5 md:mx-20 py-16 grid grid-cols-1 lg:grid-cols-2">
       <motion.div
-        className="space-y-4 mb-20"
+        className="space-y-4 mb-20 xl:mb-0"
         initial={{ x: "-100%" }}
         animate={{ x: 0 }}
         transition={{ ease: [0.25, 1, 0.5, 1], duration: 0.3 }}
@@ -60,7 +60,7 @@ export function Hero() {
       </motion.div>
 
       <motion.div
-        className="relative flex justify-center"
+        className="relative flex justify-center py-10 xl:py-0"
         initial={{ x: "-200%" }}
         animate={{ x: 0 }}
         transition={{ ease: [0.25, 1, 0.5, 1], duration: 0.3 }}
@@ -68,14 +68,14 @@ export function Hero() {
         <Image
           src={HeroImg}
           alt="Hero Image"
-          className="-z-10 -skew-x-2 w-fit lg:h-[450px]"
+          className="-z-10 -skew-x-2 w-fit h-[300px] md:h-[450px]"
         />
 
         {/* large div */}
-        <div className="absolute -top-1  lg:-top-2 lg:left-36 shadow-2xl shadow-violet-600 w-[320px] h-[320px] md:w-[520px] md:h-[600px] lg:w-[350px] lg:h-[300px] border border-slate-400 backdrop-blur-sm  rounded-3xl -skew-x-12 -z-40"></div>
+        <div className="absolute -top-1  lg:-top-2 lg:left-36 shadow-2xl shadow-violet-600 w-[290px] h-[320px] md:w-[520px] md:h-[500px] lg:w-[350px] lg:h-[300px] border border-slate-400 backdrop-blur-sm  rounded-3xl -skew-x-12 -z-40"></div>
 
         {/* small div */}
-        <div className="absolute -top-5 left-5 md:left-10 lg:top-14 lg:left-40 shadow-2xl shadow-violet-600 -skew-x-12 -z-40 w-[280px] h-[230px] md:w-[400px] md:h-[300px]  lg:w-[400px] lg:h-[450px] border rounded-3xl border-slate-400 bg-transparent backdrop-blur-md"></div>
+        <div className="absolute -top-5 left-5 md:left-10 lg:top-14 lg:left-40 shadow-2xl shadow-violet-600 -skew-x-12 -z-40 w-[280px] h-[230px] md:w-[400px] md:h-[400px]  lg:w-[400px] lg:h-[450px] border rounded-3xl border-slate-400 bg-transparent backdrop-blur-md"></div>
       </motion.div>
     </div>
   );
